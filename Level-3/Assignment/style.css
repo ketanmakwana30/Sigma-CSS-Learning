@@ -1,0 +1,42 @@
+/* div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 10px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.q1{
+    height: 150px;
+    width:300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin: 20px 0 40px 0;
+    margin-right: 1em;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.q2{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+li {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+}
