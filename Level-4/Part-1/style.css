@@ -38,5 +38,8 @@ div {
 div:hover {
     background-color: #6fff00;
     width: 300px;
-
+    /* transform: rotate(360deg); */
+    transform: scale(.8);
+    border-radius: 10px;
+    box-shadow:  5px 5px 7px rgb(74, 19, 19);
 }
