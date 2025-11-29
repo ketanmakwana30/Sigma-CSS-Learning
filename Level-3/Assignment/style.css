@@ -33,10 +33,14 @@
     background-color: pink;
     border: 2px solid black;
     border-radius: 50%;
+    /* outline: 5px dashed blue;
+    outline-offset: 2px; */
+    outline: thick ridge pink;
 }
 
 li {
     display: inline-block;
     margin-top: 10px;
     padding: 5px;
+    /* outline: auto; */
 }
