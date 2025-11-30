@@ -9,7 +9,7 @@ div{
   width: 100px;
   height: 100px;
   background: green;
-  transition: 2s ease 0.5s;
+  transition:width  2s ease 0.5s;
 }
 
 #box1:hover {
