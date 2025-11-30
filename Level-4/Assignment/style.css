@@ -23,9 +23,7 @@ div{
   width: 100px;
   height: 100px;
   background: red;
-  transform: translateX(200px);
-  transform: translateY(200px);
-  transform: rotate(90deg);
+  transform: translate(200px,200px) rotate(90deg);
 }
 
 /* Qs3. Using transform, skew box3 20deg along the x axis.*/
@@ -34,7 +32,7 @@ div{
   width: 100px;
   height: 100px;
   background: lightblue;
-  transform: skew(20deg);
+  transform: skewX(20deg);
 }
 
 /* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
@@ -44,7 +42,7 @@ div{
   width: 100px;
   height: 100px;
   background: lightgreen;
-  box-shadow: 2px 2px 5px blue ;
+  box-shadow: 2px 2px 5px green;
 }
 
 /* Qs5. Set Your picture or any picture as the background of the div
