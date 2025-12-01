@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 900px;
+    margin: 10px auto;
+    border: 2px solid black;    
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    color: white ;
+    text-align: center;
+    font-size: 1.5em;
+}
