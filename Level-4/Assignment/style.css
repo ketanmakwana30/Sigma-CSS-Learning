@@ -23,7 +23,11 @@ div{
   width: 100px;
   height: 100px;
   background: red;
-  transform: translate(200px,200px) rotate(90deg);
+  transition: 2s;
+}
+
+#box2:hover{
+   transform: translate(20px,20px) rotate(90deg);
 }
 
 /* Qs3. Using transform, skew box3 20deg along the x axis.*/
