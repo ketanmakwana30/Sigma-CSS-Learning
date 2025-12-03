@@ -12,16 +12,18 @@ h1{
 
 #container{
     display: flex;
-    flex-direction: column;
+    align-items:start;
+    justify-content:space-between ;
+    flex-wrap: wrap;
     height: 500px;
-    width: 900px;
-    margin: 10px auto;
-    border: 2px solid black;    
+    /* width: 100%; */
+    /* margin: 10px auto; */
+    border: 2px solid black;  
 }
 
 #container div{
     height: 100px;
-    width: 300px;
+    width: 100px;
     padding: 5px;
     color: white ;
     text-align: center;
