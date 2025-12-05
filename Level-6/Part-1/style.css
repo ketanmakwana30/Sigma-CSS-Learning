@@ -11,14 +11,34 @@ body{
     height: 700px;
     background-color: lightcoral;
     display: grid;
-    grid-template-rows: 150px 150px 150px 150px 150px ;
-    grid-template-columns: auto auto auto auto ;
+    /* grid-template-rows: 150px 150px 150px 150px 150px ; */
+    /* grid-template-columns: auto auto auto auto ; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    /* row-gap: 20px;
+    column-gap: 30px; */
+    grid-gap:28px;
+    justify-items: center;
 }
 
 .item{
-    /* width: 200px;
-    height: 100px; */
+    width: 200px;
+    height: 100px;
     text-align: center;
     background-color: yellowgreen; 
     border: 2px solid black ;         
 }
+
+.one{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column: 1/3; */
+    grid-column: 1/ span 2;
+    justify-self: end;
+}
+
+    .three{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        align-self: end;
+    }
