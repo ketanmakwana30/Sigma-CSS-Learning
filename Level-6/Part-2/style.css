@@ -1,0 +1,83 @@
+.container{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(225, 199, 204);
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+
+@media (min-width:600px){
+    .container .box{
+        background-color: red;
+    }
+}
+@media (max-width:200px){
+    .container .box{
+        background-color: rgb(194, 27, 185);
+    }
+}
+@media (orientation: landscape) {
+    .container .box{
+        background-color: limegreen;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    background-color: rgb(206, 189, 120);
+    /* height: 100px;
+    width: 300px; */
+    /* animation-name: widthAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    transition-delay: 3s;
+    animation-iteration-count: 3;
+    animation-direction:normal; */
+    /* animation: widthAnimation 2s linear 2s infinite normal;
+    animation: colorAnim 10s ease-out 3s infinite normal ; */
+} 
+/* 
+@keyframes widthAnimation{
+    from{
+        width: 80px;
+        background-color: gray;
+    }
+    to{
+        width: 800px;
+        background-color: green;
+        border-radius: 8px;
+    }
+}
+
+@keyframes colorAnim{
+    0%{
+        background-color: red;
+    }
+    40%{
+        background-color: green;
+    }
+    60%{
+        background-color: blue;
+    }
+    80%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: black;
+    }
+} */
+
