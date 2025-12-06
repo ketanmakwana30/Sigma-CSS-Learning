@@ -1,0 +1,21 @@
+
+.box{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(218, 40, 70);
+    border: 2px solid black;
+    display:flex;
+    position: relative;
+    
+}
+
+.box2{
+    background-color: greenyellow;
+    position: relative;
+    bottom: 20px;
+    z-index: -1;
+}
+.box3{
+    background-color: rebeccapurple;
+}
