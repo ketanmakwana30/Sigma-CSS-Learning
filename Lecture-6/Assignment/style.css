@@ -1,0 +1,95 @@
+/* Q-1. Create grid to web page */
+
+.container {
+    height: 500px;
+    width: 100%;
+    background-color: pink;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+    background-color: aqua;
+    text-align: center;
+}
+
+.header {
+    /* height: 20px;     */
+    grid-column: 1/5;
+}
+
+.sidebar {
+    grid-row: 2/12;
+}
+
+.nav {
+    grid-column: 2/4;
+}
+
+.ads {
+    grid-column: 4/5;
+    grid-row: 2/12;
+}
+
+.main {
+    grid-column: 2/4;
+    grid-row: 3/12;
+}
+
+.footer {
+    grid-column: 1/5;
+}
+
+/* Q-2. Use media Queiry */
+
+@media (-width:720px) {
+    .nav {
+        grid-column: 1/5;
+        grid-row: 2/3;
+    }
+
+    .sidebar {
+        grid-column: 1/2;
+        grid-row: 3/span 9;
+    }
+
+    .ads {
+        grid-column: 1/2;
+        grid-row: 12/13;
+    }
+
+    .footer {
+        grid-column: 2/5;
+    }
+
+    .main {
+        grid-column: 2/5;
+    }
+}
+
+/* Q-3. Loader */
+
+.loader{
+    height: 120px;
+    width: 120px;
+    border: 13px solid #f3f3f3;
+    /* border-top: 16px solid goldenrod; */
+    border-bottom: 12px dotted rgb(50, 118, 34);
+    border-top: 12px dashed rgb(43, 73, 95);
+    border-left: 12px dotted rgb(58, 19, 106);
+    border-right: 12px dashed rgb(255, 0, 221);
+
+    border-radius: 50%;
+    animation: spin .9s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
